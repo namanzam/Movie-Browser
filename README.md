@@ -1,3 +1,3 @@
-# Quering Services Challenge
+##Movie Browser
 
-Add files to this directory to complete the Querying Services challenge. You have complete control over the user experience of this solution, so there is no starter code.
+This project uses [The Movie DB](https://www.themoviedb.org/?language=en) and fetches its **API** using **Ajax**. The movie browser automatically displays the most popular movies currently. The user can also search for any movie and it's *poster, title, and description* will be displayed. Furthermore, the user can *filter movies by genre and search within that given genre*. The link to the project can be found [here](https://namanzam.github.io/Movie-Browser/).
