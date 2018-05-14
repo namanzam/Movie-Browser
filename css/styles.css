@@ -1,0 +1,31 @@
+.movie-clap {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 10px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+
+
+#previous {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+

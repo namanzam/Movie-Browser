@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie</title>
+    <link rel="stylesheet" href="css/movie.css">
+</head>
+<body>
+    <!-- for error messages -->
+    <div id="error" class="alert alert-danger d-none"></div>
+    <h1 id="title"></h1>
+    <h3 id="tagline"></h3>
+    <img id="poster">
+    <h2 class="under">Overview:</h2>
+    <h4 id="overview"></h5>
+    <h2 class="under">Genres:</h2>    
+    <h4 id="genres"></h5>
+    <h2 class="under">Production Companies:</h2>    
+    <h4 id="production"></h5>
+    <a id="homepage"><cite id="homepage-text"></cite></a>
+
+
+    <!-- fetch() API polyfill for older browsers -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="js/movie.js"></script>
+</body>
+</html>
